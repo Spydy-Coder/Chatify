@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Logo from "../assets/logo.png";
+import { Avatar, ClickAwayListener, IconButton } from "@material-ui/core";
 
 export default function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
@@ -25,6 +26,15 @@ export default function Contacts({ contacts, changeChat }) {
             <img src={Logo} alt="logo" />
             <h3>Resolver</h3>
           </div>
+          <IconButton
+            onClick={() =>
+              alert(
+                "Not added this functionality.\nClick on three dots to logout and add new room."
+              )
+            }
+          >
+          <DonutLargeIcon />
+          </IconButton>
           <div className="contacts">
             {contacts.map((contact, index) => {
               return (
