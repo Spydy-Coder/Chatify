@@ -7,7 +7,10 @@ const app = express();
 const socket = require("socket.io");
 require("dotenv").config();
 
-app.use(cors());
+let coroptions = {
+  origin: "https://resolver-vercel-front.vercel.app"
+};
+app.use(cors(coroptions));
 app.use(express.json());
 
 mongoose
