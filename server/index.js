@@ -8,7 +8,7 @@ const socket = require("socket.io");
 require("dotenv").config();
 
 let coroptions = {
-  origin: "https://resolver-vercel-front.vercel.app"
+  origin: "https://chatifyworld.vercel.app"
 };
 app.use(cors(coroptions));
 app.use(express.json());
@@ -33,7 +33,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://resolver-vercel-front.vercel.app/",
+    origin: "https://chatifyworld.vercel.app/",
     credentials: true,
   },
 });
