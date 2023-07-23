@@ -33,7 +33,7 @@ export default function Contacts({ contacts, changeChat }) {
               )
             }
           >
-          <DonutLargeIcon />
+          {/* <DonutLargeIcon /> */}
           </IconButton>
           <div className="contacts">
             {contacts.map((contact, index) => {
