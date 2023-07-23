@@ -24,7 +24,7 @@ export default function Contacts({ contacts, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h3>Resolver</h3>
+            <h3>Chatify</h3>
           </div>
           <IconButton
             onClick={() =>
@@ -33,7 +33,7 @@ export default function Contacts({ contacts, changeChat }) {
               )
             }
           >
-          <DonutLargeIcon />
+          {/* <DonutLargeIcon /> */}
           </IconButton>
           <div className="contacts">
             {contacts.map((contact, index) => {

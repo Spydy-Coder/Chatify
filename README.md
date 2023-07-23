@@ -1,7 +1,5 @@
-# Resolver - Town Complaint System
-The web app is a township complaint system designed to provide a platform for residents to report and address issues within their community.
- It serves as a centralized hub where users can submit complaints, interact with the respective authorities, and track the progress of their complaints.
- It has an integrated chat application that enables users to have direct communication with the authorities handling their complaints.
+# Chatify
+I have designed and developed a feature-rich Chat Application that enables users to interact with each other in real-time. This innovative application allows seamless communication and fosters a collaborative environment for users to exchange messages, share media, and engage in conversations effortlessly. The application is built using cutting-edge technologies, ensuring a smooth and responsive user experience.
 
 ## Installation Guide
 

@@ -1,4 +1,4 @@
-export const host = "https://resolver-vercel-server.vercel.app";
+export const host = "https://chatifyworld.vercel.app";
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
 export const logoutRoute = `${host}/api/auth/logout`;
